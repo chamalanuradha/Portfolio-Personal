@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences. It provides insight into your personality and work ethic.
 
-Template Name: iPortfolio
+
 Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
