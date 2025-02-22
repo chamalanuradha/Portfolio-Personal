@@ -434,6 +434,7 @@ section {
 .resume .para{
   font-size: 16px;
   margin:0;
+  text-align:justify;
 }
 .resume .em{
   font-size: 18px;
