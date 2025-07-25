@@ -320,18 +320,21 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #ddf4ff;
+  background: #222222;
 }
 .about .img-fluid{
   opacity: 0.9;
   border-radius: 0.5%;
 
 }
+.about h2 {
+    color: #fff;
+}
 .about h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
-  margin-bottom: 25px;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
 .about .content ul {
@@ -349,30 +352,90 @@ section {
 .about .content ul strong {
   margin-right: 10px;
 }
+.about p{
+    color: #f0f2f5;
+    text-justify: auto;
+}
 
+.about .content ul li {
+  font-size: 14px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  color: #ccc; /* light ash for the text */
+}
 .about .content ul i {
   font-size: 18px;
   margin-left: 5px;
   margin-right: 8px;
-  color: #000000;
   line-height: 0;
 }
-
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about hr {
+  margin: 10px 0 20px;
+  border: none;
+  border-top: 2px solid #149ddd;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #333; /* dark ash background */
+  color: #fff; /* white icon color */
+  margin-right: 12px;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+  background-color: #149ddd;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.03);
 }
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 
 .skills{
-  background:#ddf4ff;
+  background:#222222;
 }
+.skills h2 {
+    color: #fff;
+}
+
 .skills .skills-content h3{
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #fff;
   margin-bottom: 15px;
+}
+
+.skills p{
+    color: #f0f2f5;
+    text-justify: auto;
+}
+
+.skills .skills-content ul li {
+  font-size: 14px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  color: #ccc; /* light ash for the text */
 }
 
 .skills .skills-content ul{
@@ -380,10 +443,11 @@ section {
   padding: 0;
 }
 .skills .skills-content ul li{
+font-size: 1 rem;
  margin-bottom: 8px;
 }
 .skills .skills-content ul i {
-  font-size: 18px;
+  font-size: 28px;
   margin-left: 5px;
   margin-right: 8px;
   color: #040e1b;
@@ -392,18 +456,48 @@ section {
 .skills .col-lg-6{
  padding-left: 50px;
 }
+
+
+.skills hr {
+  margin: 10px 0 20px;
+  border: none;
+  border-top: 2px solid #149ddd;
+}
+.tech-icons h3{
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.tech-icons i {
+  margin: 15px 0;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons i:hover {
+  transform: scale(1.2);
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume {
-  background: #ddf4ff;
+  background: #222222;
+}
+.resume h2 {
+    color: #fff;
+}
+
+.resume p {
+    color: #fff;
 }
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #fff;
 }
 
 .resume .resume-item {
@@ -419,7 +513,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -451,6 +545,7 @@ section {
 .resume .resume-item ul li {
   padding-bottom: 10px;
   font-size: 16px;
+    color: #fff;
 }
 
 .resume .resume-item:last-child {
@@ -473,9 +568,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: #ddf4ff;
+  background: #222222;
 }
-
+.contact h2 {
+    color: #fff;
+}
+.contact p {
+    color: #fff;
+}
 
 .contact {
   padding-bottom: 130px;
